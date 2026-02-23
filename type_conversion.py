@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas as pd 1
 data={'age':['25','30','35'],'joined':['2022-01-01','2023-02-15','2024-06-30']}
 df=pd.DataFrame(data)
 print(df.dtypes)
@@ -18,4 +18,5 @@ print(df)
 df['group']=['A','B','A']
 df['group']=df['group'].astype('category')
 print(df.dtypes)
+
 print(df)
